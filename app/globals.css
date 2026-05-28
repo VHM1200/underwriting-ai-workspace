@@ -24,3 +24,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Custom scrollbar styles */
+
+button,
+[role="button"],
+a,
+select,
+summary,
+.cursor-hot {
+  cursor: pointer;
+}
+
+input,
+textarea {
+  cursor: text;
+}
